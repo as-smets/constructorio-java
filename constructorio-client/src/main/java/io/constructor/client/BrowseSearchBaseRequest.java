@@ -262,9 +262,11 @@ public class BrowseSearchBaseRequest {
     }
 
     /**
-     * @param filterMatchTypes the filterMatchTypes to set. Please refer to the relevant
-     *     Search/Browse API endpoint documentation for details. Possible values 'all', 'any' or
-     *     'none'
+    /**
+     * @param filterMatchTypes the filterMatchTypes to set. Please refer to
+     *     https://docs.constructor.com/reference/v1-search-get-search-results or
+     *     https://docs.constructor.com/reference/v1-browse-get-browse-results for details. Possible
+     *     values 'all', 'any' or 'none'
      */
     public void setFilterMatchTypes(Map<String, String> filterMatchTypes) {
         this.filterMatchTypes = filterMatchTypes;
