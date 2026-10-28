@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /** Constructor.io base Search/Browse Request */
-public class BrowseSearchBaseRequest {
+public abstract class BrowseSearchBaseRequest {
 
     private String section;
     private int page;
