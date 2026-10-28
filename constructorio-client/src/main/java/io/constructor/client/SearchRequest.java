@@ -12,7 +12,6 @@ public class SearchRequest extends BrowseSearchBaseRequest {
      * @param query the term to return search results for
      */
     public SearchRequest(String query) throws IllegalArgumentException {
-        super();
         if (query == null) {
             throw new IllegalArgumentException("query is required");
         }
