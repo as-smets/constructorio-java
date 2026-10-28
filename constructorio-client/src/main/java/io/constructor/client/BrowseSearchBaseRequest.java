@@ -26,8 +26,7 @@ public abstract class BrowseSearchBaseRequest {
     private Map<String, String> filterMatchTypes;
 
     /** Object with common request fields of search and browse */
-    public BrowseSearchBaseRequest() {
-
+    protected BrowseSearchBaseRequest() {
         this.section = "Products";
         this.page = 1;
         this.resultsPerPage = 30;
